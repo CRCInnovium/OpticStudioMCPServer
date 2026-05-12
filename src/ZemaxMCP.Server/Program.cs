@@ -84,6 +84,7 @@ try
     .WithTools<ZemaxMCP.Server.Tools.Analysis.GeometricMtfVsFieldTool>()
     .WithTools<ZemaxMCP.Server.Tools.Analysis.RelativeIlluminationTool>()
     .WithTools<ZemaxMCP.Server.Tools.Analysis.CrossSectionLayoutTool>()
+    .WithTools<ZemaxMCP.Server.Tools.Analysis.ZernikeCoefficientsTool>()
     // Optimization Tools
     .WithTools<ZemaxMCP.Server.Tools.Optimization.GetMeritFunctionTool>()
     .WithTools<ZemaxMCP.Server.Tools.Optimization.AddOperandTool>()
